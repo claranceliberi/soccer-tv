@@ -26,7 +26,7 @@
         marginwidth="0"
         height="600"
         allowfullscreen="true"
-        :src="`http://uhdstreams.club/footy/ch${activeChannel}.php`"
+        :src="`https://uhdstreams.club/footy/ch${activeChannel}.php`"
         scrolling="no"
         width="900"
         >Your browser does not support iframes</iframe
