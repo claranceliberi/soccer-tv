@@ -26,6 +26,10 @@
 <script lang="ts" setup>
 useMeta({
   title: "Soccer Tv",
+  meta:[
+    // < meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    {'http-equiv': 'Content-Security-Policy', content: 'upgrade-insecure-requests'}
+  ]
 });
 
 const activeChannel = ref(1);
