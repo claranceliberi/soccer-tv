@@ -14,7 +14,7 @@
         marginwidth="0"
         height="600"
         allowfullscreen="true"
-        :src="`https://uhdstreams.club/footy/ch${activeChannel}.php`"
+        :src="`http://uhdstreams.club/footy/ch${activeChannel}.php`"
         scrolling="no"
         width="900"
         >Your browser does not support iframes</iframe
@@ -26,12 +26,6 @@
 <script lang="ts" setup>
 useMeta({
   title: "Soccer Tv",
-  meta: [
-    {
-      "http-equiv": "Content-Security-Policy",
-      content: "upgrade-insecure-requests",
-    },
-  ],
 });
 
 const activeChannel = ref(1);
